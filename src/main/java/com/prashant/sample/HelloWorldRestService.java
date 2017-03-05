@@ -24,7 +24,6 @@ public class HelloWorldRestService {
 	
 	@RequestMapping("/")
 	String home() {
-		System.out.println("Test");
 		return display("");
 	}
 
