@@ -1,0 +1,43 @@
+14:13:05.886 [main] INFO  com.prashant.sample.Application - Starting Spring Boot Application
+14:13:05.886 [main] INFO  com.prashant.sample.Application - Starting Spring Boot Application
+14:13:05.892 [main] INFO  com.prashant.sample.Application - Logger used is Logback using SLF4j
+14:13:05.892 [main] INFO  com.prashant.sample.Application - Logger used is Logback using SLF4j
+14:13:06.176 [restartedMain] INFO  com.prashant.sample.Application - Starting Spring Boot Application
+14:13:06.176 [restartedMain] INFO  com.prashant.sample.Application - Starting Spring Boot Application
+14:13:06.178 [restartedMain] INFO  com.prashant.sample.Application - Logger used is Logback using SLF4j
+14:13:06.178 [restartedMain] INFO  com.prashant.sample.Application - Logger used is Logback using SLF4j
+14:13:06.605 [restartedMain] INFO  com.prashant.sample.Application - Starting Application on DESKTOP-DGB5DAJ with PID 12664 (C:\Dev\git\spring-boot\spring-boot-starter-sample\target\classes started by prash in C:\Dev\git\spring-boot\spring-boot-starter-sample)
+14:13:06.605 [restartedMain] INFO  com.prashant.sample.Application - Starting Application on DESKTOP-DGB5DAJ with PID 12664 (C:\Dev\git\spring-boot\spring-boot-starter-sample\target\classes started by prash in C:\Dev\git\spring-boot\spring-boot-starter-sample)
+14:13:06.606 [restartedMain] INFO  com.prashant.sample.Application - No active profile set, falling back to default profiles: default
+14:13:06.606 [restartedMain] INFO  com.prashant.sample.Application - No active profile set, falling back to default profiles: default
+14:13:06.674 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62ee1032: startup date [Sun Mar 05 14:13:06 CST 2017]; root of context hierarchy
+14:13:07.201 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+14:13:08.701 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+14:13:08.716 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+14:13:08.718 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+14:13:08.827 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:13:08.828 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2158 ms
+14:13:09.040 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+14:13:09.048 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:13:09.049 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:13:09.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:13:09.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:13:09.789 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62ee1032: startup date [Sun Mar 05 14:13:06 CST 2017]; root of context hierarchy
+14:13:10.181 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.prashant.sample.HelloWorldRestService.home()
+14:13:10.182 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/{name}]}" onto java.lang.String com.prashant.sample.HelloWorldRestService.home(java.lang.String)
+14:13:10.188 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+14:13:10.190 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+14:13:10.246 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:13:10.247 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:13:10.308 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:13:10.658 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:13:10.732 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+14:13:10.757 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:13:10.769 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8080]
+14:13:10.782 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:13:10.802 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+14:13:10.807 [restartedMain] INFO  com.prashant.sample.Application - Started Application in 4.611 seconds (JVM running for 5.331)
+14:13:10.807 [restartedMain] INFO  com.prashant.sample.Application - Started Application in 4.611 seconds (JVM running for 5.331)
+14:13:25.169 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+14:13:25.170 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+14:13:25.193 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
